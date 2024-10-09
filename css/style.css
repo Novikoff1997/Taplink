@@ -3,11 +3,16 @@
   padding: 0;
   margin: 0;
   text-decoration: none;
+  font-family: roboto, san-serif;
+}
+button {
+  border: 0;
 }
 .page-wrapper {
   width: 375px;
-  margin: auto;
-  padding: 10px;
+  height: 90%;
+  margin: 12px auto;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
 }
 header {
   height: 275px;
@@ -21,18 +26,22 @@ header {
   font-size: 50px;
 }
 .hello-text {
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: lighter;
 }
-.user {
+/* Общие стили для секций */
+.section {
   width: 300px;
   margin: auto;
-  margin-top: -60px;
   margin-bottom: 10px;
-  padding-bottom: 5px;
   text-align: center;
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.4);
+}
+.user {
+  margin-top: -60px;
+  padding-bottom: 12px;
 }
 .avatar-image {
   height: 120px;
@@ -44,29 +53,25 @@ header {
 }
 .username {
   margin: 0;
-  font-size: 20px;
+  font-size: 16px;
+  font-weight: normal;
   line-height: 15px;
 }
 .user-position {
-  font-size: 16px;
+  font-size: 14px;
   color: rgb(143, 143, 143);
 }
 .buttons {
-  width: 300px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 12px;
-  margin: auto;
   padding: 12px;
-  background-color: #ffffff;
-  border-radius: 10px;
-  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.4);
 }
 .button {
   border-radius: 9px;
   flex-grow: 1;
-  min-height: 39px;
+  height: 39px;
   min-width: 132px;
   display: flex;
   justify-content: center;
@@ -85,4 +90,18 @@ header {
   background-color: #000000;
   gap: 10px;
   color: #ffffff;
+}
+.my-works {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: auto;
+  padding: 12px;
+}
+
+.button-works {
+  background-color: #e95d5f;
+  color: #ffffff;
+  gap: 5px;
 }
