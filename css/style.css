@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.page-wrapper {
+  width: 375px;
+  margin: auto;
+  padding: 10px;
+}
+header {
+  height: 275px;
+  padding-top: 46px;
+  text-align: center;
+  background-image: url("../img/background_image.png");
+  border-radius: 15px 15px 80px 80px;
+  color: #ffffff;
+}
+.hello {
+  font-size: 50px;
+}
+.hello-text {
+  font-size: 18px;
+}
+.user {
+  width: 300px;
+  margin: auto;
+  margin-top: -60px;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.4);
+}
+.avatar-image {
+  height: 120px;
+  width: 120px;
+  margin-top: -60px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+}
+.username {
+  margin: 0;
+  font-size: 20px;
+  line-height: 15px;
+}
+.user-position {
+  font-size: 16px;
+  color: rgb(143, 143, 143);
+}
